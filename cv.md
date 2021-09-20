@@ -29,7 +29,7 @@ Having enough time and collaborating with experienced team of engineers will hel
 ----------------
 #### Code examples
 
-```
+```javascript
 <canvas id="area" width="600" height="500"></canvas>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script>
