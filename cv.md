@@ -29,14 +29,15 @@ Having enough time and collaborating with experienced team of engineers will hel
 ----------------
 #### Code examples
 
+```
 <canvas id="area" width="600" height="500"></canvas>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script>
     var canvasarea = document.getElementById("area");
-    var ctx = canvasarea.getContext("2d");
-    var width = canvasarea.width;
-    var height = canvasarea.height;
+    var canvaswidth = canvasarea.width;
+    var canvasheight = canvasarea.height;
 </script>
+```
 
 ------------
 #### Experience 
