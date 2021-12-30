@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
+  
     <!-- styles -->
     <link rel="stylesheet" href="./css/styles.css" />
     <!-- styles.css -->
@@ -23,10 +23,9 @@
     <link rel="stylesheet" href="./css/fontchido.css" />
   
     <!-- Code highlighter -->
-    <link rel="stylesheet" href="./css/highlight/styles/default.min.css">
-    <script src="./css/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
-
+    <link rel="stylesheet" href="./css/highlight/styles/base16/rebecca.min.css">     <!-- ./css/highlight/styles/default.min.css -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"> -->
+        
   </head>
   <body>
     <header id="home">
@@ -84,7 +83,7 @@
                   &#x1F57F; 
                   <!-- &#x260F; -->
                   <span class="contact-type">Telephone: </span>  
-                  <a href="tel:+48 512 148841">
+                  <a href="tel:+48512148841">
                     <span class="contact-text">+48 512 148841</span>
                   </a>
                 </div>  
@@ -171,16 +170,14 @@
         <div class="container">
             <div class="title">
               <h2><span>code</span></h2>
-                <div class="codesnippet">
-                  <pre><code class="language-js"><script>
+
+                <div class="codesnippet">    <!-- language-javascript -->
+                  <pre><code class="javascript"><script>  
   var canvasarea = document.getElementById("area");
   var canvaswidth = canvasarea.width;
   var canvasheight = canvasarea.height;
-  </script>
-  </code>
-                  </pre>
-                </div>
-              
+  </script></code></pre>
+                </div>              
 
             </div>
         </div>
@@ -201,6 +198,12 @@
               <div class="ed-details-item">
                 <h3>Education</h3> 
                 <p>Higher</p>
+              </div>
+              <div class="ed-details-item">
+                <h3>Projects</h3> 
+                <p>
+                  <a href="https://kocherginwa.github.io/melogy/" target="_blank">Melody</a>
+                </p>                
               </div>
               <div class="ed-details-item">
                 <h3>English</h3> 
@@ -236,7 +239,7 @@
                 
           <li>
             <a
-              href="mailto:kocherginvaa@gmail.com?subject=Mail from Your Personal Site"
+              href="mailto:kocherginvaa@gmail.com?subject=MailFromYourPersonalSite"
               class="icon fa-envelope"><span class="label">Email</span></a>
           </li>
         </ul>
@@ -247,7 +250,7 @@
         <a href="https://rs.school/js/" target="_blank">
           <img src="./img/rs_school_js.svg" 
           style="height: 30px; width: auto;"
-          alt="RS logo" />
+          alt="RS School logo" />
         </a>
       </div>
 
@@ -258,6 +261,16 @@
     <!-- javascript -->
     <script src="./js/app.js"></script>
 
+    <!-- Code highlighter -->
+    <script src="./css/highlight.min.js"></script>
+    <!-- <script>hljs.highlightAll();</script> -->
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('pre code').forEach((el) => {
+                hljs.highlightElement(el);
+            });
+        });
+    </script>
 
 
   </body>
