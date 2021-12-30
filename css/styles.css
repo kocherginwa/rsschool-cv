@@ -683,6 +683,17 @@ footer p {
 .ed-details-item > p {
   color: #000;
 }
+.ed-details-item > p > a {
+  font-weight: bold;      /* var(--clr-primary-4); */
+}
+.ed-details-item > p > a:link {
+  color: var(--clr-primary-8)      /* var(--clr-primary-4); */
+}
+.ed-details-item > p > a:visited {
+  color: var(--clr-primary-1)  
+}
+.ed-details-item > p > a:hover {
+  color: var(--clr-primary-6)  
 
 /* footer {
   position: relative;
