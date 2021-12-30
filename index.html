@@ -23,9 +23,7 @@
     <link rel="stylesheet" href="./css/fontchido.css" />
   
     <!-- Code highlighter -->
-    <link rel="stylesheet" href="./css/highlight/styles/default.min.css">
-    <script src="./css/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
+    <link rel="stylesheet" href="./css/highlight/styles/base16/rebecca.min.css">
 
   </head>
   <body>
@@ -173,12 +171,10 @@
               <h2><span>code</span></h2>
                 <div class="codesnippet">
                   <pre><code class="language-js"><script>
-  var canvasarea = document.getElementById("area");
-  var canvaswidth = canvasarea.width;
-  var canvasheight = canvasarea.height;
-  </script>
-  </code>
-                  </pre>
+var canvasarea = document.getElementById("area");
+var canvaswidth = canvasarea.width;
+var canvasheight = canvasarea.height;
+</script></code></pre>
                 </div>
               
 
@@ -201,6 +197,12 @@
               <div class="ed-details-item">
                 <h3>Education</h3> 
                 <p>Higher</p>
+              </div>
+              <div class="ed-details-item">
+                <h3>Projects</h3> 
+                <p>
+                  <a href="https://kocherginwa.github.io/melogy/" target="_blank">Melody</a>
+                </p>
               </div>
               <div class="ed-details-item">
                 <h3>English</h3> 
@@ -259,6 +261,15 @@
     <script src="./js/app.js"></script>
 
 
+    <!-- Code highlighter -->
+    <script src="./css/highlight.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('pre code').forEach((el) => {
+          hljs.highlightElement(el);
+          });
+      }); 
+    </script>
 
   </body>
 </html>
