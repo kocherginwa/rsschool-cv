@@ -350,7 +350,11 @@ header {
   height: 250px;    /* 60vh; */
 }
 #education {
+<<<<<<< HEAD
   height: 600px;     /* 60vh; */
+=======
+  height: 650px;     /* 60vh; */
+>>>>>>> rsschool-cv-html
 }
 #skills,
 #education {
@@ -683,35 +687,38 @@ footer p {
 .ed-details-item > p {
   color: #000;
 }
-.ed-details-item > p > a:link,
-.englishcertificates > .eng1 > a:link {
-  color: var(--clr-primary-9);
+.ed-details-item > p > a {
+  color: var(--clr-primary-4);
+  font-weight: bold;
 }
-.ed-details-item > p > a:hover,
-.englishcertificates > .eng1 > a:hover {
+.ed-details-item > p > a:link {
   color: var(--clr-primary-4);
 }
-.ed-details-item > p > a:visited,
-.englishcertificates > .eng1 > a:visited {
-  color: var(--clr-primary-1);
+.ed-details-item > p > a:hover {
+  color: var(--clr-primary-8);
 }
-.englishcertificate {
+/* .ed-details-item > p > a:visited {
+  color: var(--clr-primary-1);
+} */
+.english {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.englishcertificate > .eng1 > span {
-  /* color: #000; */
-  font-size: large;
+.english1 {
   font-weight: bold;
 }
-.englishcertificate > .eng2 > a > img {
-  height: 200px;
-  width: auto;
+.english1 a:link {
+  color: var(--clr-primary-4);
 }
-
-
+.english1 a:hover {
+  color: var(--clr-primary-8);
+}
+.english2 {
+  width: 250px;
+  height: auto;
+}
 /* footer {
   position: relative;
 }
