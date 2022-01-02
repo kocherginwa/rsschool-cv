@@ -350,7 +350,7 @@ header {
   height: 250px;    /* 60vh; */
 }
 #education {
-  height: 440px;     /* 60vh; */
+  height: 600px;     /* 60vh; */
 }
 #skills,
 #education {
@@ -683,6 +683,34 @@ footer p {
 .ed-details-item > p {
   color: #000;
 }
+.ed-details-item > p > a:link,
+.englishcertificates > .eng1 > a:link {
+  color: var(--clr-primary-9);
+}
+.ed-details-item > p > a:hover,
+.englishcertificates > .eng1 > a:hover {
+  color: var(--clr-primary-4);
+}
+.ed-details-item > p > a:visited,
+.englishcertificates > .eng1 > a:visited {
+  color: var(--clr-primary-1);
+}
+.englishcertificate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.englishcertificate > .eng1 > span {
+  /* color: #000; */
+  font-size: large;
+  font-weight: bold;
+}
+.englishcertificate > .eng2 > a > img {
+  height: 200px;
+  width: auto;
+}
+
 
 /* footer {
   position: relative;
