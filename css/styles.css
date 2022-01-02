@@ -350,7 +350,7 @@ header {
   height: 250px;    /* 60vh; */
 }
 #education {
-  height: 440px;     /* 60vh; */
+  height: 650px;     /* 60vh; */
 }
 #skills,
 #education {
@@ -687,13 +687,32 @@ footer p {
   font-weight: bold;      /* var(--clr-primary-4); */
 }
 .ed-details-item > p > a:link {
-  color: var(--clr-primary-8)      /* var(--clr-primary-4); */
+  color: var(--clr-primary-4)      /* var(--clr-primary-4); */
 }
-.ed-details-item > p > a:visited {
+/* .ed-details-item > p > a:visited {
   color: var(--clr-primary-1)  
-}
+} */
 .ed-details-item > p > a:hover {
-  color: var(--clr-primary-6)  
+  color: var(--clr-primary-8)  
+}
+.english {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.english1 {
+  font-weight: bold;
+}
+.english1 a:link {
+  color: var(--clr-primary-4);
+}
+.english1 a:hover {
+  color: var(--clr-primary-8);
+}
+.english2 {
+  width: 250px;
+  height: auto;
 }
 /* footer {
   position: relative;
