@@ -6,7 +6,6 @@ https://kocherginwa.github.io/rsschool-cv/cv
 I hope it will be interesting to read through it.
 
 https://kocherginwa.github.io/rsschool-cv   
-<br>
 or the same at <br>
 https://kocherginwa.github.io/rsschool-cv/index.html
 
